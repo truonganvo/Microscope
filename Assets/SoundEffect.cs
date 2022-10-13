@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class SoundEffect : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource audioPlay;
+
+    public void PlatSoundEffect()
     {
-        
+        audioPlay.Play();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
